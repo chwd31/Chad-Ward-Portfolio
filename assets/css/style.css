@@ -2,8 +2,33 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 body {
     background-color: aquamarine;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+    color: black;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+
+}
+
+.header div {
+    padding-top: 20px;
+    margin-left: 20;
+    float: left;
+}
+
+.header div ul {
+    display: inline-block;
+    margin-left: 20px;
+
 }
