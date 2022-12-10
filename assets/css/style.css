@@ -1,8 +1,9 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-block;
+
 }
 
 body {
@@ -14,10 +15,14 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: azure;
     color: black;
+    display:
+
 }
 .header h1 {
-    display: inline-block;
+    display: flexbox;
     font-size: 50px;
+    float: right;
+
 
 }
 
@@ -30,5 +35,9 @@ body {
 .header div ul {
     display: inline-block;
     margin-left: 20px;
+
+}
+
+.hero {
 
 }
