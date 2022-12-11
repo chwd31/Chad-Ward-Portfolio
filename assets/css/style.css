@@ -8,6 +8,14 @@ body {
     
 }
 
+.hero {
+    background-image: 
+    url(/assets/images/banner.jpeg);
+    background-size: cover;
+
+
+}
+
 main {
     display: flex;
     margin-top: 2%;
