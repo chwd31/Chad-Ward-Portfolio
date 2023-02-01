@@ -3,33 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
     <title> Ward Portfolio</title>
 </head>
 
 
 <body>
-<header class="header">
-    <h1> Chad Ward - Web Developer</h1>  
-    <div>
-        <ul>
-            <li>
-                <a href="">About</a>
-            </li>
-            <li>
-                <a href="">Work</a>
-            </li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </div>  
-</header>
 
-    <div class="hero">
-        </div>
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Chad Ward</h1>
+            <p>Web Development</p>
+            <a href="#About Me"><button>About Me</button></a>
+            <a href="#Work"><button>Work</button></a>
+            <a href="#Contact"><button>Contact</button></a>
+    </div>
+</div>
+
+    
 
     
 <main>
-    <section class="About Me">
+    <section class="About Me" id="About Me">
         <h2>
             About Me
         </h2>
@@ -61,29 +57,48 @@
 
 
 
-    <section class="Work">
+    <section class="Work" id="Work">
 
     <div class="Projects">
         <h2>Work</h2>
         <div class="Marketing">
-            <h3>Marketing Campaign Challenge</h3>
+            <h3>
+                <a href="https://chwd31.github.io/Module-1-Challenge/">Marketing Campaign Challenge</a>
+            </h3>
             <p>
-                First challenge that required clean up for accessibility purposes
+                First challenge that required clean up for accessibility purposes.  Given a predesigned site, students were asked to 
+                reformat the HTML and CSS for readability and to refractor the code.  This challenge also required the students to ensure 
+                a live site was set up.  The refracted code and changes for the site can be found at the <a href="https://github.com/chwd31/Module-1-Challenge">repo</a> on GitHub.
             </p>
     
     
         </div>
         <div class="Future">
-            <h3> Next Challenge</h3>
+            <h3> 
+                <a href="https://chwd31.github.io/Ride-or-Die-Cycling-App/">Ride or Die Cycling App</a>
+            </h3>
             <p>
-                This will be the next challenge
+                This site was designed by a cohort of students to tackle the issue of finding bike sharing locations in a new city.  
+                As avid cyclists who travel, we designed as site that can assist the users to finding a bike sharing company in 
+                the new city they have traveled to.  The site is also designed to give them the weather in their new location, allowing
+                for the user to be fully prepared when they arrive at the destination.  Finally our application offered an FAQ section 
+                for the user to get some cycling tips at their new destination. 
+            </p>
+
+            <p>
+                The site was designed to pull from two separate APIs to retrieve relevant data for the user.  
+                While the weather sharing API used was fully functional, the bike sharing API had some limitations
+                on data for all cities with bike sharing available.  A future iteration fo the site will include
+                using an updated bike sharing API to offer the user more options when traveling.  More Information
+                can be found by navigating to the <a href="https://github.com/chwd31/Ride-or-Die-Cycling-App">Read Me</a>
+                on the GitHub. 
             </p>
     
         </div>  
 
     </div>
       
-<div class="Contact">
+<div class="Contact" id="Contact">
     <h2>
         Contact Information
     </h2>
@@ -91,13 +106,13 @@
     <div>
         <p>
             <li>
-                GitHub located <a href="">here</a>
+                GitHub located <a href="https://github.com/chwd31">here</a>
             </li>
             <li>
-                Email me <a href="">here</a>
+                Email me <a href="mailto:chadward505@gmail.com">here</a>
             </li>
             <li>
-                LinkedIn <a href="">page</a>
+                LinkedIn <a href="https://www.linkedin.com/in/chwd31/">page</a>
             </li>
         </p>
     </div>
