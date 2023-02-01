@@ -14,29 +14,13 @@ main {
     flex-wrap: wrap;
 
 }
-/* .header h1 {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    background: gray;
-    color: aliceblue;
-}
 
-.header h1 div {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    margin-left: 20;
-    flex-direction: row;
-} */
-
-/* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/igor-miske-Px3iBXV-4TU-unsplash.jpg')
   
     /* Set a specific height */
-    height: 50%;
+    
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -54,6 +38,8 @@ main {
     transform: translate(-50%, -50%);
     color: white;
   }
+
+
 
 .main section {
     flex: 1 0 0;
